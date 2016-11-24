@@ -30,4 +30,47 @@ body {
 
 img {
   width: 100%;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 25em) {
+
+  img:nth-child(5) {
+    display: block;
+  }
+
+  img:nth-child(2) {
+    display: block;
+  }
+
+  img {
+    width: 50%;
+    float: left;
+  }
+
+  img:nth-child(1) {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  img {
+    width: 33.33%;
+  }
+
+  img:nth-child(5) {
+    display: none;
+  }
+
+  img:nth-child(1) {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  
+
 }
